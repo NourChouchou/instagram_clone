@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram</title>
+    <link rel="icon" href="Img/instagram.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!----sidebar-->
+ <div class="sidebar">
+    <a href="#" class="logo">
+        <img src="Img/insta.png" alt="">
+    </a>
+    <div class="profile">
+        <a href="profile.html"><div class="profile-img">
+            <img src="Img/nour.jpg" alt="">
+        </div></a>
+        <div class="name">
+            <h1>Nour_Chouchene</h1>
+            <img src="Img/verify-removebg-preview.png" alt="">
+        </div>
+        <span>@nourchouchene</span>
+    </div>
+    <div class="about">
+        <div class="box">
+            <h3>89</h3>
+            <span>Posts</span>
+        </div>
+            <div class="box">
+                <h3>123M</h3>
+                <span>Followers</span>
+            </div>
+                <div class="box">
+                    <h3>14</h3>
+                    <span>Following</span>
+                </div>
+ </div> 
+ <div class="menu">
+    <a href="#" class="active">
+        <span class="icon" style="display: flex;">
+     <img src="Img/White___Black_Modern_Photography_Logo-removebg-preview (1).png" alt="" class="icon-img" style="margin-top: -5%;">  Feed
+      
+        </span>
+    </a>
+    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal0" style="background: transparent;border: none;">
+        <span class="icon" style="display: flex;">
+     <img src="Img/1.png" alt="" class="icon-img" style="margin-top: -5%;">Explore
+        
+        </span>
+    </a>
+    <div class="modal fade" id="exampleModal0" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" >
+          <div class="modal-content">
+            <div class="modal-header">
+                <div class="search" style="background-color: rgb(48, 44, 44);">
+                    <img src="Img/1.png" alt="">
+                    <input type="text" placeholder="search">
+                </div>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    <a href=""  class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" style="background: transparent; border: none; margin-left: -10%;">
+        <span class="icon" style="margin-left: 5%;">
+     <img src="Img/icons8-heart-48.png" alt="" class="icon-img" style="width: 10%;">
+        Notfications
+        </span>
+    </a>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel" style="margin-left: 72%;position: fixed;">
+        <div class="offcanvas-header">
+       <img src="Img/icons8-notification.gif" alt="">   <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel" style="text-align: center;color: black;">Notfication</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ol class="list-group " style="list-style-type: none;">
+                <li class="list-group-item d-flex justify-content-between align-items-start" style="display: flex;">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold" style="display: flex;">   <img src="Img/faya.jpg" alt=""  style="  width: 60px; height: 60px;  border-radius:50% ;border: 2px solid #e2336b; ">    <p> Faya Younen</p><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                        width: 15px;height: 15px;
+                        object-fit: cover; "></div>
+             <p style="margin-left: 40%; margin-top: -20%;">Add story</p>
+                  </div>
+                  <span class="badge bg-primary rounded-pill">14 min</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start" style="display: flex;">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold" style="display: flex;">     <img src="Img/Hiba-min.jpg" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid rgb(5, 149, 19) ;">    <p>Hiba Chouchene</p></div>
+              
+                      <p style="margin-left: 32%; margin-top: -17%;">Like your post</p>
+                    </div>
+                    <span class="badge bg-primary rounded-pill">45 min</span>
+                  </li>
+
+                  <li class="list-group-item d-flex justify-content-between align-items-start" style="display: flex;">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold" style="display: flex;">     <img src="Img/Dua.webp" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid #e2336b ">   <p>Dua Lipa</p><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                        width: 15px;height: 15px;
+                        object-fit: cover; "></div>
+              
+                      <p style="margin-left: 40%; margin-top: -20%;"> Add video</p>
+                    </div>
+                    <span class="badge bg-primary rounded-pill">47 min</span>
+                  </li>
+              </ol>
+        </div>
+      </div>
+    <a href="" class="btn btn-primary1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions1" aria-controls="offcanvasWithBothOptions" style="background: transparent; border: none; margin-left: -10%;">
+        <span class="icon" style="margin-left: 5%;">
+            <img src="Img/icons8-avion-en-papier-60.png" alt="" class="icon-img" style="width: 10%;">
+       Messages        </span>
+    </a>
+    <div class="offcanvas offcanvas-start1" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions1" aria-labelledby="offcanvasWithBothOptionsLabel" style="margin-left: 72%;position: fixed;">
+        <div class="offcanvas-header">
+       <img src="Img/icons8-chat-message.gif" alt="">   <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel" style="text-align: center;color: black;">Messages</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ol class="list-group " style="list-style-type: none;">
+                <li class="list-group-item d-flex justify-content-between align-items-start" style="display: flex;">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold" style="display: flex;">   <img src="Img/faya.jpg" alt=""  style="  width: 60px; height: 60px;  border-radius:50% ;border: 2px solid #e2336b; ">    <p> Faya Younen</p><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                        width: 15px;height: 15px;
+                        object-fit: cover; "></div>
+             <p style="margin-left: 40%; margin-top: -20%;"><b style="color: gray;">you:</b>  Fine ,thanks</p>
+                  </div>
+                 
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start" style="display: flex;">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold" style="display: flex;">     <img src="Img/Hiba-min.jpg" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid rgb(5, 149, 19) ;">    <p>Hiba Chouchene</p></div>
+              
+                      <p style="margin-left: 40%; margin-top: -20%;"><b style="color: gray;">Hi !</b> </p>
+                    </div>
+                  
+                  </li>
+
+                  <li class="list-group-item d-flex justify-content-between align-items-start" style="display: flex;">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold" style="display: flex;">     <img src="Img/Dua.webp" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid #e2336b ">   <p>Dua Lipa</p><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                        width: 15px;height: 15px;
+                        object-fit: cover; "></div>
+                      <p style="margin-left: 40%; margin-top: -20%;"><b style="color: gray;">you:</b> How are you?</p>
+                    </div>
+                  </li>
+              </ol>
+        </div>
+      </div>
+    <a href="Short.html" >
+        <span class="icon" style="margin-left: 5%;">
+            <img src="Img/icons8-instagram-reels-50.png" alt="" class="icon-img" style="width: 15%;">
+        Shorts
+        </span>
+    </a>
+    <a href="stats.html" >
+        <span class="icon" style="margin-left: 5%;" >
+            <img src="Img/icons8-instagram-shop-24.png" alt="" class="icon-img">
+        Stats
+        </span>
+    </a>
+    <a href="" >
+        <span class="icon" style="margin-left: 5%;" >
+            <img src="Img/icons8-support-48.png" alt="" class="icon-img">
+        Setting
+        </span>
+    </a>
+    <a href="login.html" >
+        <span class="icon" style="margin-left: 5%;display: flex;">
+            <img src="Img/icons8-sortie-64.png" alt="" class="icon-img" style="width: 20%;">
+        Logout
+        </span>
+    </a>
+ </div>
+ </div>
+ <!--main home-->
+ <div class="main-home">
+    <div class="header">
+        <div class="search">
+            <img src="Img/1.png" alt="">
+            <input type="text" placeholder="search">
+        </div>
+        <div class="header-content">
+            <img src="Img/icons8-heart-48.png" alt="" style="margin-left: 2%;"><span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle" style="margin-left: -17.5%;font-size: 2px; margin-top: 3%;">
+          </span>
+            <img src="Img/icons8-avion-en-papier-60.png" alt="" style="margin-left: 12%;"> 
+            <a href="#" class="btn" style=" display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 8px;
+            background: var(--gradient);
+        margin-left: 20%;    
+   font-size: 20%;">
+                <img src="Img/icons8-plus-2-mathématique-48.png" alt="" style="width: 30%;">
+                <div class="btn-text" style="font-size: 30% ;color: #fff;">Add Photos</div>
+            </a>
+
+        </div>
+      
+    </div>
+    <div class="stories-title">
+        <h1>Stories</h1>
+    </div>
+    <div class="stories-img color">
+          <img src="Img/Design sans titre.png" alt="" style="  width: 55px; height: 55px;  border-radius:50% ; ">
+      <a href="#">  <img src="Img/White___Black_Modern_Photography_Logo-removebg-preview.png" alt="" style="width: 30%; margin-top: -12%; margin-left: -23%; ">
+      </a>
+
+    </div>
+    <div class="story-img"  style="margin-left: 10%;"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="Img/Hiba-min.jpg" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid rgb(5, 149, 19) ;margin-top: -14%; ;">
+    
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="display: flex;">
+               <img src="Img/Hiba-min.jpg" alt="" style="  width: 55px; height: 55px;  border-radius:50% ; ">   <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;margin-left: 2%;">Hiba Chouchene</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <img src="Img/AIV06121.jpg" alt="" style="width: 100%;height: 30%;">
+                </div >
+        
+                
+              </div>
+            </div>
+          </div></div>
+    <div class="story-img" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+        <img src="Img/faya.jpg" alt=""  style="  width: 60px; height: 60px;  border-radius:50% ;border: 2px solid #e2336b;margin-left: 17%;margin-top: -13%; ">
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="display: flex;">
+                    <img src="Img/faya.jpg" alt="" style="  width: 55px; height: 55px;  border-radius:50% ; ">     <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;margin-left: 2%;">Faya Younen</h1><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                    width: 15px;height: 15px;
+                    object-fit: cover; ">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="Img/fayouch.jpg" alt=""  style="width: 100%;height: 30%;">
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="story-img" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa2">
+        <img src="Img/dorra1.jpg" alt=""  style="  width: 60px; height: 60px;  border-radius:50% ;border: 2px solid #e2336b;margin-left:24%;margin-top: -13%; ">
+        <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="display: flex;">
+                    <img src="Img/dorra1.jpg" alt="" style="  width: 55px; height: 55px;  border-radius:50% ; ">     <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;margin-left: 2%;"> Dorre Zarrouk</h1><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                    width: 15px;height: 15px;
+                    object-fit: cover; ">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="Img/dordor.jpg" alt=""  style="width: 100%;height: 30%;">
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="story-img" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa3">
+        <img src="Img/Dua.webp" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid #e2336b;margin-left:31%;margin-top: -13%; ">
+        <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="display: flex;">
+                    <img src="Img/Dua.webp" alt="" style="  width: 55px; height: 55px;  border-radius:50% ; ">     <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;margin-left: 2%;"> Dua Lipa </h1><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                    width: 15px;height: 15px;
+                    object-fit: cover; ">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="Img/dua lipa.jpg" alt=""  style="width: 100%;height: 30%;">
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="story-img" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa4">
+        <img src="Img/majed el mouhandes.jpg" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid #e2336b;margin-left:38%;margin-top: -13%; ">
+        <div class="modal fade" id="exampleModa4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="display: flex;">
+                    <img src="Img/majed el mouhandes.jpg" alt="" style="  width: 55px; height: 55px;  border-radius:50% ; ">     <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;margin-left: 2%;"> Majed El Mohandes  </h1><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                    width: 15px;height: 15px;
+                    object-fit: cover; ">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="Img/majed el.jpg" alt=""  style="width: 100%;height: 30%;">
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="story-img" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa5">
+        <img src="Img/Sia-Furler-31.webp" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid #e2336b;margin-left:45%;margin-top: -13%; ">
+        <div class="modal fade" id="exampleModa5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="display: flex;">
+                    <img src="Img/Sia-Furler-31.webp" alt="" style="  width: 55px; height: 55px;  border-radius:50% ; ">     <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;margin-left: 2%;"> Sia   </h1><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                    width: 15px;height: 15px;
+                    object-fit: cover; ">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="Img/sia music.jpg" alt=""  style="width: 100%;height: 30%;">
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="story-img" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa6">
+        <img src="Img/Dhafer.jpg" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid #e2336b;margin-left:52%;margin-top: -13%; ">
+        <div class="modal fade" id="exampleModa6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="display: flex;">
+                    <img src="Img/Dhafer.jpg" alt="" style="  width: 55px; height: 55px;  border-radius:50% ; ">     <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;margin-left: 2%;"> Dhafer El Abdin   </h1> <img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                    width: 15px;height: 15px;
+                    object-fit: cover; ">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="Img/dhafer and his wife.jpg" alt=""  style="width: 100%;height: 30%;">
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="story-img" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa7">
+        <img src="Img/hamoud elkhedhr.jpg" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid #e2336b; margin-left:58%;margin-top: -13%;">
+        <div class="modal fade" id="exampleModa7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="display: flex;">
+                    <img src="Img/hamoud elkhedhr.jpg" alt="" style="  width: 55px; height: 55px;  border-radius:50% ; ">     <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;margin-left: 2%;"> Hamoud Elkhodr  </h1><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                    width: 15px;height: 15px;
+                    object-fit: cover; ">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="Img/hamoud.jpg" alt=""  style="width: 100%;height: 30%;">
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="story-img" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa8">
+        <img src="Img/ajrem.jpg" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid #e2336b; margin-left:64%;margin-top: -13%;">
+        <div class="modal fade" id="exampleModa8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="display: flex;">
+                    <img src="Img/ajrem.jpg" alt="" style="  width: 55px; height: 55px;  border-radius:50% ; ">     <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;margin-left: 2%;"> Nancy Ajrem   </h1><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                    width: 15px;height: 15px;
+                    object-fit: cover; ">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="Img/nancy ajrem.jpg" alt=""  style="width: 100%;height: 30%;">
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="story-img" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa9">
+        <img src="Img/burak1.jpg" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid #e2336b; margin-left:71%;margin-top: -13%;">
+        <div class="modal fade" id="exampleModa9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="display: flex;">
+                    <img src="Img/burak1.jpg" alt="" style="  width: 55px; height: 55px;  border-radius:50% ; ">     <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;margin-left: 2%;"> burak özçivit  </h1><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                    width: 15px;height: 15px;
+                    object-fit: cover; ">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="Img/burak family.jpg" alt=""  style="width: 100%;height: 30%;">
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="story-img"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa10">
+        <img src="Img/naslhan.webp" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid #e2336b; margin-left:78%;margin-top: -13%;">
+        <div class="modal fade" id="exampleModa10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="display: flex;">
+                    <img src="Img/naslhan.webp" alt="" style="  width: 55px; height: 55px;  border-radius:50% ; ">     <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;margin-left: 2%;">    Neslihan Atagül </h1><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                    width: 15px;height: 15px;
+                    object-fit: cover; ">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" >
+                  <img src="Img/neslihan.jpg" alt=""  style="width: 100%;height: 30%;">
+                </div>
+              </div>
+            </div>
+          </div>
+     </div>
+    <div class="story-img"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa11">
+        <img src="Img/amr.jpg" alt=""  style="  width: 55px; height: 55px;  border-radius:50% ;border: 2px solid #e2336b; margin-left:85%;margin-top: -13%; ">
+        <div class="modal fade" id="exampleModa11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="display: flex;">
+                    <img src="Img/amr.jpg" alt="" style="  width: 55px; height: 55px;  border-radius:50% ; ">     <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;margin-left: 2%;">    Amr Diab  </h1><img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                    width: 15px;height: 15px;
+                    object-fit: cover; ">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" >
+                  <img src="Img/amrou.jpg" alt=""  style="width: 100%;height: 30%;">
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="feed">
+        <h1>Feed</h1>
+    </div>
+    <div class="main-posts">
+        <div class="post-box"  style="margin-left: 10%;">
+            <img src="Img/Hiba-min.jpg" alt="" style="width:100% ;height: 80%; border-radius: 5%;            ">
+            <div class="post-info">
+                <div class="post-profile">
+                    <div class="post-img">
+                        <img src="Img/Hiba-min.jpg" alt="" style="  width: 25px; height: 25px;  border-radius:50% ;">
+                    </div>
+                    <h3  style="color: black;margin-left: 5%;">Hiba Chouchene</h3>
+                </div>
+                <div class="likes">
+                    <img src="img/heart.png" alt="" style="width: 6%;margin-left: 7%;                     ">
+                    <span  style="color: black;">74</span>
+                    <img src="Img/speech-bubble.png" alt="" style="width: 8%;margin-left: 7%;                     ">
+                    <span style="color: black;">50</span>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="main-posts">
+        <div class="post-box" style="margin-top: -34%; margin-left:65%;">
+            <img src="Img/lipa.jpg" alt="" style="width:100% ;height: 80%; border-radius: 5%;            ">
+            <div class="post-info">
+                <div class="post-profile">
+                    <div class="post-img">
+                        <img src="Img/Dua.webp" alt="" style="  width: 25px; height: 25px;  border-radius:50% ;">
+                    </div>
+                    <h3  style="color: black;margin-left: 5%;">Dua Lipa</h3>
+                    <img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                    width: 15px;height: 15px;
+                    object-fit: cover; margin-top: 2%;">
+                </div>
+                <div class="likes">
+                    <img src="img/heart.png" alt="" style="width: 6%;margin-left: 7%;                     ">
+                    <span  style="color: black;">74M</span>
+                    <img src="Img/speech-bubble.png" alt="" style="width: 8%;margin-left: 7%;                     ">
+                    <span style="color: black;">50M</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ </div></div>
+ <br><br>
+ <div class="post">
+ <div class="main-posts">
+    <div class="post-box"  style="margin-top:-142%;margin-left: 31%;width: 22%; ">
+        <img src="Img/nasli.jpg" alt="" style="width:100% ;height: 80%; border-radius: 5%;            ">
+        <div class="post-info">
+            <div class="post-profile">
+                <div class="post-img">
+                    <img src="Img/naslhan.webp" alt="" style="  width: 25px; height: 25px;  border-radius:50% ;">
+                </div>
+                <h3  style="color: black;margin-left: 5%;">Neslihan Atagül</h3>
+                <img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                width: 15px;height: 15px;
+                object-fit: cover; margin-top: 2%;">
+            </div>
+            <div class="likes">
+                <img src="img/heart.png" alt="" style="width: 6%;margin-left: 7%;                     ">
+                <span  style="color: black;"> 904K</span>
+                <img src="Img/speech-bubble.png" alt="" style="width: 8%;margin-left: 7%;                     ">
+                <span style="color: black;">50K</span>
+            </div>
+        </div>
+    </div>
+
+ 
+    <div class="post-box"  style="margin-top:-142%;margin-right: 5%; width: 22%; ">
+        <img src="Img/burak-2.jpg" alt="" style="width:100% ;height: 80%; border-radius: 5%;            ">
+        <div class="post-info">
+            <div class="post-profile">
+                <div class="post-img">
+                    <img src="Img/burak1.jpg" alt="" style="  width: 25px; height: 25px;  border-radius:50% ;">
+                </div>
+                <h3  style="color: black;margin-left: 5%;">burak özçivit</h3>
+                <img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                width: 15px;height: 15px;
+                object-fit: cover; margin-top: 2%;">
+            </div>
+            <div class="likes">
+                <img src="img/heart.png" alt="" style="width: 6%;margin-left: 7%;                     ">
+                <span  style="color: black;"> 9M</span>
+                <img src="Img/speech-bubble.png" alt="" style="width: 8%;margin-left: 7%;                     ">
+                <span style="color: black;">5M</span>
+            </div>
+        </div>
+    </div>
+ </div> 
+</div>
+ <br><br>
+ <div class="main-posts">
+    <div class="post-box"  style="margin-top:-116%;margin-left: 31%;width: 22%; ">
+        <img src="Img/sia.webp" alt="" style="width:100% ;height: 80%; border-radius: 5%;            ">
+        <div class="post-info">
+            <div class="post-profile">
+                <div class="post-img">
+                    <img src="Img/Sia-Furler-31.webp" alt="" style="  width: 25px; height: 25px;  border-radius:50% ;">
+                </div>
+                <h3  style="color: black;margin-left: 5%;">Sia</h3>
+                <img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                width: 15px;height: 15px;
+                object-fit: cover; margin-top: 2%;">
+            </div>
+            <div class="likes">
+                <img src="img/heart.png" alt="" style="width: 6%;margin-left: 7%;                     ">
+                <span  style="color: black;"> 904K</span>
+                <img src="Img/speech-bubble.png" alt="" style="width: 8%;margin-left: 7%;                     ">
+                <span style="color: black;">50K</span>
+            </div>
+        </div>
+    </div>
+    <div class="post-box"  style="margin-top:-116%;margin-right: 5%; width: 22%; ">
+        <img src="Img/diab.jpg" alt="" style="width:100% ;height: 80%; border-radius: 5%;            ">
+        <div class="post-info">
+            <div class="post-profile">
+                <div class="post-img">
+                    <img src="Img/amr.jpg" alt="" style="  width: 25px; height: 25px;  border-radius:50% ;">
+                </div>
+                <h3  style="color: black;margin-left: 5%;"> Amr Diab</h3>
+                <img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                width: 15px;height: 15px;
+                object-fit: cover; margin-top: 2%;">
+            </div>
+            <div class="likes">
+                <img src="img/heart.png" alt="" style="width: 6%;margin-left: 7%;                     ">
+                <span  style="color: black;"> 9M</span>
+                <img src="Img/speech-bubble.png" alt="" style="width: 8%;margin-left: 7%;                     ">
+                <span style="color: black;">5M</span>
+            </div>
+        </div>
+    </div>
+ </div> 
+</div>
+ <br><br>
+ <div class="main-posts">
+    <div class="post-box"  style="margin-top:-90%;margin-left: 31%;width: 22%; ">
+        <img src="Img/younen.jpg" alt="" style="width:100% ;height: 80%; border-radius: 5%;            ">
+        <div class="post-info">
+            <div class="post-profile">
+                <div class="post-img">
+                    <img src="Img/faya yunen.jpg" alt="" style="  width: 25px; height: 25px;  border-radius:50% ;">
+                </div>
+                <h3  style="color: black;margin-left: 5%;">Faya</h3>
+                <img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                width: 15px;height: 15px;
+                object-fit: cover; margin-top: 2%;">
+            </div>
+            <div class="likes">
+                <img src="img/heart.png" alt="" style="width: 6%;margin-left: 7%;                     ">
+                <span  style="color: black;"> 904K</span>
+                <img src="Img/speech-bubble.png" alt="" style="width: 8%;margin-left: 7%;                     ">
+                <span style="color: black;">50K</span>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="post-box"  style="margin-top:-90%;margin-right: 5%; width: 22%; ">
+        <img src="Img/nancy.jpg" alt="" style="width:100% ;height: 80%; border-radius: 5%;            ">
+        <div class="post-info">
+            <div class="post-profile">
+                <div class="post-img">
+                    <img src="Img/ajrem.jpg" alt="" style="  width: 25px; height: 25px;  border-radius:50% ;">
+                </div>
+                <h3  style="color: black;margin-left: 5%;"> Nancy Ajrem</h3>
+                <img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                width: 15px;height: 15px;
+                object-fit: cover; margin-top: 2%;">
+            </div>
+            <div class="likes">
+                <img src="img/heart.png" alt="" style="width: 6%;margin-left: 7%;                     ">
+                <span  style="color: black;"> 9M</span>
+                <img src="Img/speech-bubble.png" alt="" style="width: 8%;margin-left: 7%;                     ">
+                <span style="color: black;">5M</span>
+            </div>
+        </div>
+    </div>
+ </div> 
+ <br><br>
+ <div class="main-posts">
+    <div class="post-box"  style="margin-top:-65%;margin-left: 31%;width: 22%; ">
+        <img src="Img/elabdin.jpg" alt="" style="width:100% ;height: 80%; border-radius: 5%;            ">
+        <div class="post-info">
+            <div class="post-profile">
+                <div class="post-img">
+                    <img src="Img/Dhafer.jpg " alt="" style="  width: 25px; height: 25px;  border-radius:50% ;">
+                </div>
+                <h3  style="color: black;margin-left: 5%;">Dhafer Elabdine</h3>
+                <img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                width: 15px;height: 15px;
+                object-fit: cover; margin-top: 2%;">
+            </div>
+            <div class="likes">
+                <img src="img/heart.png" alt="" style="width: 6%;margin-left: 7%;                     ">
+                <span  style="color: black;"> 904K</span>
+                <img src="Img/speech-bubble.png" alt="" style="width: 8%;margin-left: 7%;                     ">
+                <span style="color: black;">50K</span>
+            </div>
+        </div>
+    </div> 
+    <div class="post-box"  style="margin-top:-65%;margin-right: 5%; width: 22%; ">
+        <img src="Img/zarrouk.jpg" alt="" style="width:100% ;height: 80%; border-radius: 5%;            ">
+        <div class="post-info">
+            <div class="post-profile">
+                <div class="post-img">
+                    <img src="Img/dorra1.jpg" alt="" style="  width: 25px; height: 25px;  border-radius:50% ;">
+                </div>
+                <h3  style="color: black;margin-left: 5%;"> Dorra Zarrouk</h3>
+                <img src="Img/verify-removebg-preview.png" alt="" style=" margin-left: 7px; 
+                width: 15px;height: 15px;
+                object-fit: cover; margin-top: 2%;">
+            </div>
+            <div class="likes">
+                <img src="img/heart.png" alt="" style="width: 6%;margin-left: 7%;                     ">
+                <span  style="color: black;"> 9M</span>
+                <img src="Img/speech-bubble.png" alt="" style="width: 8%;margin-left: 7%;                     ">
+                <span style="color: black;">5M</span>
+            </div>
+        </div>
+    </div>
+ </div> 
+ <br><br>
+ <div class="main-posts">
+    <div class="post-box"  style="margin-top:-40%;margin-left: 31%;width: 22%; ">
+        <img src="Img/hamoud elkhedhr.jpg" alt="" style="width:100% ;height: 70%; border-radius: 5%;            ">
+        <div class="post-info">
+            <div class="post-profile">
+                <div class="post-img">
+                    <img src="Img/hamoud elkhedhr.jpg " alt="" style="  width: 25px; height: 25px;  border-radius:50% ;">
+                </div>
+                <h3  style="color: black;margin-left: 5%;">Hammoud Elkhodhr</h3>
+                <img src="Img/verify-removebg-preview.png" alt="" style=" margin-right: 25%; 
+                width: 15px;height: 15px;
+                object-fit: cover; margin-top: 2%;">
+            </div>
+            <div class="likes">
+                <img src="img/heart.png" alt="" style="width: 6%;margin-left: 7%;                     ">
+                <span  style="color: black;"> 904K</span>
+                <img src="Img/speech-bubble.png" alt="" style="width: 8%;margin-left: 7%;                     ">
+                <span style="color: black;">50K</span>
+            </div>
+        </div>
+    </div>
+    <div class="post-box"  style="margin-top:-40%;margin-right: 5%; width: 22%; ">
+        <img src="Img/mohandes.jpg" alt="" style="width:100% ;height: 70%; border-radius: 5%;            ">
+        <div class="post-info">
+            <div class="post-profile">
+                <div class="post-img">
+                    <img src="Img/majed el mouhandes.jpg" alt="" style="  width: 25px; height: 25px;  border-radius:50% ;">
+                </div>
+                <h3  style="color: black;margin-left: 5%;"> Majed El Mouhandes</h3>
+                <img src="Img/verify-removebg-preview.png" alt="" style=" margin-right: 25%; 
+                width: 15px;height: 15px;
+                object-fit: cover; margin-top: 2%;">
+            </div>
+            <div class="likes">
+                <img src="img/heart.png" alt="" style="width: 6%;margin-left: 7%;                     ">
+                <span  style="color: black;"> 9M</span>
+                <img src="Img/speech-bubble.png" alt="" style="width: 8%;margin-left: 7%;                     ">
+                <span style="color: black;">5M</span>
+            </div>
+        </div>
+    </div>
+ </div> 
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</html>    
